@@ -14,4 +14,8 @@ spring:
   name: microservicecloud-config-atguigu-test
   
   #请保存为utf-8
-    
+---
+spring:
+ profiles: uat
+ application:
+  name: microservicecloud-config-atguigu-uat    
